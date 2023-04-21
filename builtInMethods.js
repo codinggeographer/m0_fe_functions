@@ -10,13 +10,20 @@
 
 
 "Hello World".includes("Hello");
+// The includes() method is called on the string "Hello World"
+// "Hello World" includes the world "Hello"
+// The return value is true
 
 
 "Hello World".endsWith("Hello");
-
+// The endsWith() method is called on the string "Hello World"
+// Since "Hello World" does not end with the string "Hello"
+// The return value is false
 
 "Hello World".endsWith("rld");
-
+// The endsWith() method is called on the string "Hello World"
+// Since "Hello World" does end with the string "rld"
+// The return value is false
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
@@ -32,6 +39,25 @@
 // The console.log() statements prints the return value of the startsWith() method (true) to the console.
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
+
+// The replace() method is called on the birthPlace variable, which stores the string object "Bronx"
+// The replace() method replaces a specified value with another value in the string
+// The return is the string "Bronx" replacing the string "Estes Park"
+var birthPlace = "Bronx";
+console.log(birthPlace.replace("Bronx", "Estes Park"));
+
+
+// The concat() method is a copying method linking two or more strings together
+// This method does not change the exisitng strings, instead returns a new string
+// The return is the new strings "BlackCat" and "Cat, Black"
+var color = 'Black';
+var animal = 'Cat';
+console.log(color.concat('', animal));
+console.log(animal.concat(',', color));
+
+
+
+
 
 
 

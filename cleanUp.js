@@ -15,7 +15,6 @@ function askForName() {
 askForName();
 
 // formatted code block to align with proper syntax
-// added a semicolon to validate call
 
 
 // EX 2:
